@@ -127,7 +127,7 @@ a:hover{
 }
 
 #problemtext{
-    padding-left: 13%;
+    padding-left: 16%;
 }
 
 #ideatext{
@@ -148,12 +148,13 @@ a:hover{
 #problemimg{
     position: relative;
     left: 760px;
-    top: 50px;
+    top: 25px;
 }
 
 #ideaimg{
      float: left;
      left: 12.25%;
+     top: 25px;
 }
 
 .overlay {
