@@ -119,7 +119,7 @@ a:hover{
 .textbox{
     padding-top: 50px;
     
-    width: 45%;
+    width: 576px;
     height: 300px;
     float: left;
     font-family: roboto;
@@ -135,20 +135,61 @@ a:hover{
 }
 
 .image{
-    width: 30%;
-    position: relative;
-    top: 25px;
-    border-radius: 500px;
-   
+    width:100%;
     
+    position: absolute;
+    border-radius: 500px;
+    display: block;
+  
+
 }
 
 #problemimg{
-    
+    position: relative;
+    left: 760px;
+    top: 50px;
 }
 
 #ideaimg{
      float: left;
      left: 12.25%;
-      
 }
+
+.overlay {
+    border-radius: 500px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: skyblue;
+}
+
+.container:hover .overlay {
+  opacity: .95;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: roboto;
+}
+.container{
+     width: 350px;
+     height: 350px;
+    position: relative;
+    top: 25px;
+    border-radius: 500px;
+    display: block;
+  
+}
+
