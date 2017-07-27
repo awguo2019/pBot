@@ -1,0 +1,128 @@
+
+
+body,html {
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+}
+
+hr{
+    width: 75%;
+    height: 2px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 200px;
+}
+
+
+#logo{
+width:300px;  
+position: relative;
+top: -175px;
+left: 250px;
+border-radius: 250px;
+border-color: limegreen;
+border-width: 10px;
+border-style: solid;
+background-color: white;
+}
+
+a{
+    text-decoration: none;
+color: lightgreen;
+}
+
+a:hover{
+    color: green;
+}
+
+#encore{
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    height: 50px;
+    background-color: gray;
+    color: lightgreen;
+    text-align: right;
+    line-height: 50px;
+    font-family: roboto;
+}
+
+#encoretext1{
+    text-align: left;
+    width: 60%;
+    float: left;
+    color: lightgreen;
+    font-family: roboto;
+}
+#encoretext2{
+    text-align: right;
+    float: left;
+    width: 40%;
+    color: lightgreen;
+    font-family: roboto;
+}
+
+#title{
+    width: 100%;
+    height: 500px;
+    background-color:#b6b4b4;
+    text-align: center;
+}
+
+#title-text1{
+    font-size: 500%;
+    font-family: Comfortaa;
+    position: relative;
+    color: white;
+    padding-top: 10px;
+    top: 125px;
+    text-align: left;
+    left: 150px;
+}
+
+#title-text2{
+   font-size: 750%;
+   padding-top: 30px;
+   font-weight: bold;
+    font-family: Comfortaa;
+    position: relative;
+    color: white;
+    top: 125px;
+    text-align: left;
+    left: 150px; 
+}
+
+#problem{
+    height: 650px;
+    width: 100%;
+    
+}
+
+.title{
+    
+    position: relative;
+    padding-top: 75px;
+    left: 12.25%;
+    color: skyblue;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 250%;
+}
+
+.textbox{
+    padding-top: 50px;
+    padding-left: 12.25%;
+    width: 45%;
+    height: 300px;
+    float: left;
+    font-family: roboto;
+}
+
+.image{
+    width: 30%;
+    position: relative;
+    top: 25px;
+    border-radius: 500px;
+}
+
