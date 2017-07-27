@@ -170,7 +170,7 @@ a:hover{
 }
 
 .container:hover .overlay {
-  opacity: .95;
+  opacity: .90;
 }
 
 .text {
