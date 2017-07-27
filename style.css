@@ -99,6 +99,12 @@ a:hover{
     
 }
 
+#idea{
+    height: 650px;
+    width: 100%;
+    
+}
+
 .title{
     
     position: relative;
@@ -112,11 +118,20 @@ a:hover{
 
 .textbox{
     padding-top: 50px;
-    padding-left: 12.25%;
+    
     width: 45%;
     height: 300px;
     float: left;
     font-family: roboto;
+}
+
+#problemtext{
+    padding-left: 13%;
+}
+
+#ideatext{
+    padding-left: 20%;
+   
 }
 
 .image{
@@ -124,5 +139,16 @@ a:hover{
     position: relative;
     top: 25px;
     border-radius: 500px;
+   
+    
 }
 
+#problemimg{
+    
+}
+
+#ideaimg{
+     float: left;
+     left: 12.25%;
+      
+}
