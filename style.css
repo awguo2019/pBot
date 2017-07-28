@@ -148,10 +148,11 @@ a:hover{
 
 #problemtext{
     padding-left: 12.25%;
+    transform: translateY(7.5%); 
 }
 
 #ideatext{
-    padding-left: 25%;
+    padding-left: 17.25%;
    
 }
 
