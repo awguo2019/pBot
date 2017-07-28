@@ -47,6 +47,7 @@ a:hover{
     text-align: right;
     line-height: 50px;
     font-family: roboto;
+    opacity: .875;
 }
 
 #encoretext1{
@@ -55,6 +56,7 @@ a:hover{
     float: left;
     color: lightgreen;
     font-family: roboto;
+     font-weight: lighter;
 }
 #encoretext2{
     text-align: right;
@@ -62,6 +64,7 @@ a:hover{
     width: 40%;
     color: lightgreen;
     font-family: roboto;
+     font-weight: lighter;
 }
 
 #title{
@@ -69,6 +72,8 @@ a:hover{
     height: 500px;
     background-color:#b6b4b4;
     text-align: center;
+    border-bottom-style: groove;
+   
 }
 
 #title-text1{
@@ -95,15 +100,20 @@ a:hover{
 }
 
 #problem{
-    height: 650px;
+    height: 550px;
     width: 100%;
     
 }
 
 #idea{
-    height: 700px;
+    height: 600px;
     width: 100%;
     
+}
+
+#pbot{
+    height: 600px;
+    width: 100%;
 }
 
 .title{
@@ -113,25 +123,35 @@ a:hover{
     left: 12.25%;
     color: skyblue;
     font-family: roboto;
-    font-weight: bold;
+    
     font-size: 250%;
 }
 
 .textbox{
     padding-top: 50px;
-    
-    width: 576px;
+    width: 550px;
     height: 300px;
     float: left;
     font-family: roboto;
+    line-height: 250%;
+}
+
+.textboxti{
+    font-size: 24px;
+    color: darkblue;
+}
+
+.textboxte{
+    font-size: 20px;
+    color: rgb(77, 77, 77);
 }
 
 #problemtext{
-    padding-left: 16%;
+    padding-left: 12.25%;
 }
 
 #ideatext{
-    padding-left: 20%;
+    padding-left: 25%;
    
 }
 
@@ -185,6 +205,8 @@ a:hover{
   -ms-transform: translate(-50%, -50%);
   font-family: roboto;
 }
+
+
 .container{
      width: 350px;
      height: 350px;
