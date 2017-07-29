@@ -106,7 +106,7 @@ a:hover{
 }
 
 #idea{
-    height: 600px;
+    height: 550px;
     width: 100%;
     
 }
@@ -151,14 +151,20 @@ a:hover{
     transform: translateY(7.5%); 
 }
 
+#pbottext{
+    padding-left: 12.25%;
+    transform: translateY(30%); 
+    
+}
+
 #ideatext{
     padding-left: 17.25%;
    transform: translateY(7%); 
+  
 }
 
 .image{
     width:100%;
-    
     position: absolute;
     border-radius: 500px;
     display: block;
@@ -170,6 +176,7 @@ a:hover{
     position: relative;
     left: 760px;
     top: 25px;
+    
 }
 
 #ideaimg{
@@ -215,6 +222,40 @@ a:hover{
     top: 25px;
     border-radius: 500px;
     display: block;
-  
+    z-index: 20;
 }
 
+#slideshow {
+left: 25px;
+  margin: 80px auto;
+  position: relative;
+  width: 350px;
+  height: 350px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  float: left;
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+.ssimg{
+    width: 350px;
+    height: 350px;
+}
+
+#caption{
+    width: 350px;
+    font-size: 12px;
+    color: gray;
+    position: relative;
+    text-align: center;
+    font-family: roboto;
+    left: 740px;
+    top: -50px;
+}
